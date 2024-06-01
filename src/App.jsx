@@ -16,7 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React Hola mundo</h1>
+      <h1>Vite + React Hola mundo 2</h1>
       <Typewriter
         words={['Hello, this is a typewriter effect!']}
         loop={true}
