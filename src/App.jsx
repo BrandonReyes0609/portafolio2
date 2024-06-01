@@ -17,10 +17,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React Hola mundo 2</h1>
-      <Typewriter
-        words={['Hello, this is a typewriter effect!']}
-        loop={true}
-      />
+
 
 
       <div className="card">
