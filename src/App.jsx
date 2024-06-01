@@ -17,6 +17,12 @@ function App() {
         </a>
       </div>
       <h1>Vite + React Hola mundo</h1>
+      <Typewriter
+        words={['Hello, this is a typewriter effect!']}
+        loop={true}
+      />
+
+
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -28,10 +34,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <Typewriter
-        words={['Hello, this is a typewriter effect!']}
-        loop={true}
-      />
+
     </>
   )
 }
